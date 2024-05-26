@@ -1,0 +1,10 @@
+
+https://mamun747.github.io/Interactive-website/
+
+<h2>Vertical Line</h2>
+<div class="vl"></div>
+
+.vl {
+    border-left: 2px solid green;
+    height: 600px;
+  }

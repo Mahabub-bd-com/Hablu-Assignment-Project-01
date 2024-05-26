@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: verdana;
+}
+
+nav{
+    padding: 20px 15px;
+    background-color: #bde0fe;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+
+    & .logo img{
+        width: 160px;
+    }
+
+    & .logo a{
+        font-size: 25px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    & .Buy{
+        font-size: 25px;
+        color: black;
+        text-decoration: none;
+        font-weight: 500;
+        font-weight: bold;
+        display: inline;
+    }
+
+    & .Sell{
+        font-size: 25px;
+        color: black;
+        text-decoration: none;
+        font-weight: 500;
+        margin-left: 20px;
+        font-weight: bold;
+        display: inline;
+    }
+
+    & .Offer{
+        font-size: 25px;
+        color: black;
+        text-decoration: none;
+        font-weight: 500;
+        margin-left: 20px;
+        font-weight: bold;
+        display: inline;
+    }
+
+    &  button{
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 10px;
+        color: white;
+        /* background-color: black; */
+        background-color: #003049;
+        border: none;
+        cursor: pointer;
+    }
+
+    & button:hover{
+        background-color: black;
+    }
+
+    &  .World img{
+        width: 45px;
+        float: right;
+        cursor: pointer;
+        /* margin-left: 10px; */
+    }
+
+    &  .World img:hover{
+        /* background-color: rebeccapurple; */
+        background-color: transparent;
+    }
+}
+
+.BG{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    object-fit: cover;
+    height: 800px;
+    gap: 60px;
+    background-image: url("/style/image/BG image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.Offer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.How{
+    padding-top: 10px;
+}
+
+.ABC{
+    font-size: 25px;
+    padding: 10px;
+}
+
+.Form{
+   background-color: white; 
+   font-size: 25px;
+   width: 1200px;
+   padding: 40px;
+   border-radius: 20px;
+
+   .XY{
+    text-align: center;
+    margin-bottom: 20px; 
+   }
+} 
+
+.Ifooter{
+    text-align: center;
+    margin-bottom: 30px;
+    
+    & a{
+        text-decoration: none;
+        font-size: 25px;
+        color: black;
+        border: 3px solid black ;
+        border-radius: 20px;
+        padding: 10px 20px;
+        font-weight: bold;  
+    }
+}
+
+.Song:hover{
+    background-color: #00b4d8;
+}
+
+h2{
+    padding: 30px ;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    background-color: #FDE24F;
+    position: relative;
+    font-weight: bold;
+}
+
+.Frame{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    background-color: #FDE24F;
+}
+
+.Frame img{
+    align-items: center; 
+    background-color: #FDE24F; 
+    width: 100%;
+    height: 200px;
+    padding: 50px 350px;
+}
+
+.item{
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+/* Container Start */
+.Fea{
+    text-align: center;
+    /* padding-top: 30px; */
+    padding: 30px 0px;
+}
+
+.BTN{
+    text-align: center;
+    padding: 20px 0px;
+
+    & a{
+        text-decoration: none;
+        color: white;
+    }
+
+    & button:hover{
+        background-color: rebeccapurple;
+        transition: .5s;
+    }
+
+    & button{
+        margin-top: 20px; 
+        background-color: #00b4d8;
+        font-size: 30px;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 30px;
+        transition: .2s;
+    } 
+}
+
+.Container{
+    /* background-color: #c46811; */
+    /* padding: 40px; */
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0px 150px;
+
+    & h3{
+        font-size: 25px;
+    }
+
+    & p{
+        font-size: 20px;
+        line-height: 1cm;
+    }
+
+    & a{
+        font-size: 20px;
+        line-height: 1cm;
+        text-decoration: none;
+        color: black;
+    }
+}
+/* Container End */
+
+/* Grid Start */
+.Grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 40px 100px;
+    gap: 50px;
+}
+
+.main_area{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    width: 750px;
+    border: 2px solid black;
+    gap: 25px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 20px auto;  
+}
+
+.main_area:hover{
+    scale: 90%;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;  
+}
+
+.Left_Side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Right_Side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn{
+    text-align: center;
+    padding: 15px 30px;
+    font-size: 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+
+    & a{
+        text-decoration: none;
+        color: #000;
+    }
+}
+
+.Left_Side h1{
+    text-align: center;
+}
+
+.Right_Side h1{
+    text-align: center;
+}
+/* Grid End */
+
+/* Sign-Up */
+.Sign-Up{
+    background-color: #003049;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+
+    & h1{
+        color: white;
+        padding-left: 180px;
+        padding-right: 180px;
+        padding-top: 80px;
+        font-size: 30px;
+        line-height: 1cm;
+        text-align: center;
+    }
+
+    & button{
+        margin-top: 100px; 
+        background-color: #e76f51;
+        font-size: 30px;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 30px;
+        transition: .2s;
+        box-shadow: 5px 5px 10px 10px;
+        transition-timing-function: ease;
+        
+        & a{
+            text-decoration: none;
+            color: white;
+            text-align: center;
+            cursor: pointer;
+        }
+    }
+
+    & button:hover{
+        background-color: #00b4d8;
+    }
+}
+
+.footer {
+    background: #000;
+    color: white;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+
+    & h2{
+        background-color: black;
+        color: white;
+        padding: 0px;
+        text-decoration: none;
+        
+        & a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+    & p {
+
+        & a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
+.copy{
+    padding: 40px;
+    background-color: #FDE24F;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+}
